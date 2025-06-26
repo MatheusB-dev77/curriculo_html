@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    height: 100%
+}
+
+#elementoPrincipal{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#curriculo{
+    width: 60%;
+    height: 90%;
+    background-color:  #1a1b1d;
+    display: flex;
+}
+
+#navbar{
+    width: 7%;   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#menuItem{
+    width: 100%;
+    background-color:#55B983;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+#navegacao{
+    width: 100%;
+    background-color:#1a1b1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.navIcon{
+    width: 100%;
+    background-color: #1a1b1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+.navIcon:hover{
+    
+    background-color: #55B983;
+}
+
+.navImag{
+    width: 50px;
+    height: 50px;
+}
+
+#baixar{
+    width: 100%;
+    background-color: #1a1b1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+#menuIcone{
+    width: 25px;
+    height: 25px;
+
+}
+#imgprofile{
+background-color: #55B983;
+flex: 1 ;
+/* background-image: url(../imagem/foto-removebg-preview.png); */
+
+}
+
+#immgprofile img{
+
+}
+
+#about{
+    
+}
