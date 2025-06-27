@@ -87,9 +87,10 @@ flex: 1 ;
 }
 
 #immgprofile img{
-
+    margin-left: -50px;
 }
 
 #about{
-    
+    background-color: blue;
+    flex: 2;
 }
