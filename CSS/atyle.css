@@ -17,7 +17,7 @@ body,html{
 
 #curriculo{
     width: 60%;
-    height: 90%;
+    height: 100%;
     background-color:  #1a1b1d;
     display: flex;
 }
@@ -80,17 +80,28 @@ body,html{
 
 }
 #imgprofile{
-background-color: #55B983;
+background-size: contain;
 flex: 1 ;
-/* background-image: url(../imagem/foto-removebg-preview.png); */
+background-image: url(../imagem/foto.jpeg);
+background-repeat: no-repeat;
+border-radius: 12px;
+margin: 10px;
 
+
+  
 }
 
-#immgprofile img{
-    margin-left: -50px;
-}
+
 
 #about{
-    background-color: blue;
-    flex: 2;
+flex:3;
+
 }
+
+width: 150px;            /* Tamanho desejado (pode usar %, px, rem etc.) */
+height: auto;            /* Mantém proporção */
+border-radius: 12px;     /* Borda arredondada */
+position: absolute;      /* Posição absoluta na tela */
+top: 0;
+left: 0;
+margin: 10px;            /* Espaço do topo e da esquerda */
