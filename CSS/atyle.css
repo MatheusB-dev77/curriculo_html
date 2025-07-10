@@ -16,7 +16,7 @@ body,html{
 }
 
 #curriculo{
-    width: 60%;
+    width: 50%;
     height: 100%;
     background-color:  #1a1b1d;
     display: flex;
@@ -114,11 +114,13 @@ text-align:-webkit-center
 }
 
 #p3{
-    margin: 20px;
+    margin: 30px
 }
 
 #p4{
-    margin: 20px;
+    margin: 30px;
 }
 
-
+#p5{
+  margin: 30px
+}
