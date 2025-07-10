@@ -85,7 +85,7 @@ flex: 1 ;
 background-image: url(../imagem/foto.jpeg);
 background-repeat: no-repeat;
 border-radius: 12px;
-margin: 10px;
+margin: 20px;
 
 
   
@@ -122,5 +122,8 @@ text-align:-webkit-center
 }
 
 #p5{
-  margin: 30px
+  margin: 30px;
+}
+#p6{
+    margin: 30px
 }
